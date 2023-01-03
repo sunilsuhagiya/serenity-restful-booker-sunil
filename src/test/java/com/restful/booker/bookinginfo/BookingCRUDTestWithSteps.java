@@ -7,6 +7,7 @@ import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.Title;
 import org.junit.Test;
 
+@RunWith(SerenityRunner.class)
 public class BookingCRUDTestWithSteps extends TestBase {
 
     static String firstName = "Guest" + TestUtils.getRandomValue();
